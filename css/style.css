@@ -1,0 +1,25 @@
+/* start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* General */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* debug */
+
+
+/* header */
+
+/* main */
+
+
+/* footer */
