@@ -23,3 +23,133 @@ html{
 
 
 /* footer */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    color: white;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+h5{
+    font-weight: normal;
+    margin: 0 10px;
+}
+
+header{
+    height: 50px;
+    padding: 5px 5px 0 0;
+    text-align: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.fix{
+    all: unset;
+    padding: 5px 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.main{
+    height: calc(100% - 130px);
+    overflow-y: auto;
+}
+.container{
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.utente{
+    width: 250px;
+    padding: 10px 3px;
+}
+.person-info{
+    position: relative;
+}
+.person-info img{
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+}
+.naming {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 5px;
+    font-size: 14px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: blue;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .video, footer.button{
+    width: 20%;
+}
+footer .setting {
+    padding-left: 10px;
+}
+h5{
+    font-size: 14px;
+}
+.icone > i{
+    margin-bottom: 10px;
+}
+.icone{
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#icongreen{
+    color: green;
+}
+.icone .arrow {
+    font-size: 15px;
+    line-height: 50px;
+}
+.end-meet {
+    display: flex;
+    justify-content: right;
+}
+.btn {
+    all: unset;
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    background-color: coral;
+    color: yellow;
+}
